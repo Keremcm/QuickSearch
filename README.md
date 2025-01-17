@@ -42,14 +42,16 @@ pip install flet
 python search_file.py
 ```
 
-Kullanım
-	1.	Dosya Adını Girin:
+## Kullanım
+1.**Dosya Adını Girin:**
 Aramak istediğiniz dosya adını metin kutusuna yazın.
-	2.	Arama Yapın:
+
+2.**Arama Yapın:**
 “Dosya Ara” butonuna tıklayarak belirtilen dizinlerde dosya arayın.
-	3.	Dosyanın Yerini Açın:
+
+3.**Dosyanın Yerini Açın:**
 Bulunan dosyalardan birine tıklayarak Windows Dosya Gezgini’nde dosyanın yerini görün.
 
-Lisans
+## Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır.
