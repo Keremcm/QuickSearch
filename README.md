@@ -1,63 +1,55 @@
-QuickSearch
+# QuickSearch - README
 
-QuickSearch, bilgisayarınızdaki dosyaları hızlı ve kolay bir şekilde aramanıza olanak tanıyan bir dosya arama uygulamasıdır. Uygulama, basit bir kullanıcı arayüzü ile belirttiğiniz dosyayı bulur ve Windows Dosya Gezgini’nde yerini kolayca açmanızı sağlar.
+QuickSearch, bilgisayarınızdaki dosyaları hızlı ve kolay bir şekilde aramanıza olanak tanıyan bir dosya arama uygulamasıdır. 
+Uygulama, basit bir kullanıcı arayüzü ile belirttiğiniz dosyayı bulur ve Windows Dosya Gezgini'nde yerini kolayca açmanızı sağlar.
 
-Özellikler
-	•	Hızlı Arama: Dosya adını girerek belirttiğiniz dizinlerde dosya araması yapar.
-	•	Gelişmiş Uzantı Desteği: Yaygın dosya uzantılarını otomatik olarak algılar.
-	•	Dosya Gezgini Entegrasyonu: Bulunan dosyanın üzerine tıklayarak Windows Dosya Gezgini’nde yerini görme özelliği.
-	•	Kullanıcı Dostu Arayüz: Basit ve temiz bir arayüz.
+---
 
-Kurulum
-	1.	Python Gereksinimleri
-QuickSearch’i çalıştırmak için bilgisayarınızda Python 3.11 veya daha üst bir sürümün yüklü olması gerekir.
-	2.	Gerekli Kütüphaneler
-Uygulama için aşağıdaki Python kütüphanelerini yüklemeniz gereklidir:
+## Özellikler
 
+- **Hızlı Arama:** Dosya adını girerek belirttiğiniz dizinlerde dosya araması yapar.
+- **Gelişmiş Uzantı Desteği:** Yaygın dosya uzantılarını otomatik olarak algılar.
+- **Dosya Gezgini Entegrasyonu:** Bulunan dosyanın üzerine tıklayarak Windows Dosya Gezgini'nde yerini görme özelliği.
+- **Kullanıcı Dostu Arayüz:** Basit ve etkili bir tasarım ile kolay kullanım.
+
+---
+
+## Gereksinimler
+
+- Python 3.7 veya üzeri
+- Flet kütüphanesi (UI için)
+- Windows işletim sistemi
+
+---
+
+## Kurulum
+
+1. **Depoyu Klonlayın:**
+   ```bash
+   git clone https://github.com/kullaniciadi/quicksearch.git
+   cd quicksearch
+   ```
+
+	2.	Gerekli Kütüphaneleri Yükleyin:
+
+```bash
 pip install flet
+```
 
+3.Uygulamayı Çalıştırın:
 
-	3.	Projenin Klonlanması
-Bu projeyi GitHub üzerinden klonlayın:
-
-git clone https://github.com/kullanici-adiniz/QuickSearch.git
-cd QuickSearch
-
-
-	4.	Uygulamayı Çalıştırma
-Aşağıdaki komut ile uygulamayı başlatabilirsiniz:
-
+```bash
 python search_file.py
+```
 
 Kullanım
-	1.	Uygulamayı başlattıktan sonra, dosya adını girin.
-	2.	Dosya Ara düğmesine tıklayın.
-	3.	Bulunan dosyalar, tıklanabilir bir liste halinde görüntülenecektir.
-	4.	Dosyanın adına tıklayarak Windows Dosya Gezgini’nde konumunu açabilirsiniz.
-
-Katkıda Bulunma
-
-Katkılar her zaman memnuniyetle karşılanır!
-	1.	Bu projeyi fork edin.
-	2.	Yeni bir dal oluşturun:
-
-git checkout -b feature-ismi
-
-
-	3.	Değişikliklerinizi yapın ve commit edin:
-
-git commit -m "Yeni özellik eklendi."
-
-
-	4.	Dalınızı push edin:
-
-git push origin feature-ismi
-
-
-	5.	Bir Pull Request oluşturun.
+	1.	Dosya Adını Girin:
+Aramak istediğiniz dosya adını metin kutusuna yazın.
+	2.	Arama Yapın:
+“Dosya Ara” butonuna tıklayarak belirtilen dizinlerde dosya arayın.
+	3.	Dosyanın Yerini Açın:
+Bulunan dosyalardan birine tıklayarak Windows Dosya Gezgini’nde dosyanın yerini görün.
 
 Lisans
 
-Bu proje MIT Lisansı altında lisanslanmıştır.
-
-Herhangi bir sorunla karşılaşırsanız veya öneriniz varsa lütfen bizimle iletişime geçin!
+Bu proje MIT lisansı altında lisanslanmıştır.
