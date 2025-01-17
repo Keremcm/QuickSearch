@@ -26,7 +26,7 @@ Uygulama, basit bir kullanıcı arayüzü ile belirttiğiniz dosyayı bulur ve W
 
 1. **Depoyu Klonlayın:**
    ```bash
-   git clone https://github.com/kullaniciadi/quicksearch.git
+   git clone https://github.com/Keremcm/quicksearch.git
    cd quicksearch
    ```
 
